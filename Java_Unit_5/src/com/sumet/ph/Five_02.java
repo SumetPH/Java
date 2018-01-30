@@ -16,7 +16,8 @@ public class Five_02 {
         while (sc.hasNext()) {
             if (count % 2 == 0) {
                 ps.print(sc.next() + " ");
-            } else {
+            } 
+            else {
                 double score = Double.parseDouble(sc.next());
                 String grade = "";
                 if (score >= 80) grade = "A";
